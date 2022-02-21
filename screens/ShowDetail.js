@@ -21,7 +21,7 @@ render()
 <View style={styles.containerButton}>
 <View>
 <Text style={{color: 'deepskyblue'}}
-           onPress={() => Linking.openURL('http://google.com')}>
+           onPress={() => Alert.alert('you clicked me')}>
               Press me
                 </Text>
 </View >
